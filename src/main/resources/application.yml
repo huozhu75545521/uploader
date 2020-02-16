@@ -1,0 +1,11 @@
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+  http:
+    servlet:
+      max-file-size: 1000Mb
+      max-request-size: 1000Mb
+      enabled: true
+server:
+  port: 80
